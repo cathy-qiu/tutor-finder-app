@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectSubject">
+
+    <ScrollView
+        android:id="@+id/scollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonMath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Math" />
+
+            <Button
+                android:id="@+id/buttonSci"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Science" />
+
+            <Button
+                android:id="@+id/buttonLang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Language" />
+
+            <Button
+                android:id="@+id/buttonEmploy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Employment" />
+
+            <Button
+                android:id="@+id/buttonLit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Literature" />
+
+            <Button
+                android:id="@+id/buttonCook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Cooking" />
+
+            <Button
+                android:id="@+id/buttonCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Coding" />
+
+            <Button
+                android:id="@+id/buttonFS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Family Studies" />
+
+            <Button
+                android:id="@+id/buttonFandH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Fitness and Health" />
+
+            <Button
+                android:id="@+id/buttonEntre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Entrepreneurship" />
+
+            <Button
+                android:id="@+id/buttonRobot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Robotics" />
+
+            <Button
+                android:id="@+id/buttonConstruct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Construction" />
+
+            <Button
+                android:id="@+id/buttonMisc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Miscellaneous" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textInstruct"
+        android:layout_width="174dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:typeface="sans"
+        app:layout_constraintBottom_toTopOf="@+id/scollView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Select a Subject" />
+
+</android.support.constraint.ConstraintLayout>

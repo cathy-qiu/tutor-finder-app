@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserSearchPAge">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="274dp"
+        android:layout_height="84dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:inputType="textPersonName"
+        android:text="Bruce Wayne"
+        android:textSize="45sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="382dp"
+        android:layout_height="47dp"
+        android:background="#fef57b"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="  Email:     brucew32@gmail.com"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <EditText
+        android:id="@+id/postalCode"
+        android:layout_width="382dp"
+        android:layout_height="47dp"
+        android:background="#fef57b"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="  Postal Code:     N3R 5L2"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="382dp"
+        android:layout_height="47dp"
+        android:background="#fef57b"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="  Age:    14"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <Button
+        android:id="@+id/findsubjectbutton"
+        android:layout_width="382dp"
+        android:layout_height="89dp"
+        android:background="#16285b"
+        android:fontFamily="sans-serif"
+        android:text="Find Subject"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="406dp" />
+</android.support.constraint.ConstraintLayout>
